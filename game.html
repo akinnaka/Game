@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Winterwunderland</title>
+  </head>
+  <body>
+    <audio class="audio" autoplay loop>
+      <source src="audio/A Christmas.mp3" />
+    </audio>
+
+    <div class="scorestar">
+      <img class="star" src="Images/stern.png" alt="star" />
+      <p class="score">0</p>
+    </div>
+    <div class="playground">
+      <img class="player" src="Images/Santa_claus.png" alt="Santa Claus" />
+    </div>
+
+    <div id="endScreen">
+      <div class="abdunkeln"></div>
+      <a href="game.html" class="gameover"></a>
+      <a href="index.html" class="menu"></a>
+    </div>
+
+    <div class="bodywrapper"></div>
+    <script src="https://jsgame.bbz.cloud/scripts/v1/keyboard.js"></script>
+    <script src="https://jsgame.bbz.cloud/scripts/v1/collision.js"></script>
+    <script src="https://jsgame.bbz.cloud/scripts/v1/timer.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
